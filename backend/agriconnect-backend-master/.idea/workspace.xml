@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6bfb348-6258-412d-9ed5-d053f97c5b25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect-backend-master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/Fast_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/AgriconnectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/config/JwtConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/config/JwtTokenValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/config/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/controller/EquipmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/model/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/model/PricingUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/repository/EquipmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/request/EquipmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/request/ForgotPasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/request/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/response/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/response/EquipmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/java/agriconnect/agriconnect/service/EquipmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/agriconnect/src/test/java/agriconnect/agriconnect/AgriconnectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/State/Auth/Action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/State/Auth/ActionType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/State/Auth/Reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/State/Store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/Adarsh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/agriculture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/agrihome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/agrilogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/assistatn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/gaurav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/harvester.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/labour.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/land.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/left_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/rent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/right_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/signup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/straw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/tools.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/tractor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/About.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Assistant.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Buy.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Dashboard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Details.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Rent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Signup.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Testimonial.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adarshiiit0117&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/adarshiiit0117/agri.git&quot;,
+    &quot;accountId&quot;: &quot;f12376ec-5510-4b97-93c6-d39858b030b8&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31uK3tqbO5sjpznfnEJAHxSRL81" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AgriconnectApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "recover-backend",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dubey/OneDrive/Desktop/agriconnect"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="agriconnect-backend-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="agriconnect-backend-master" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6bfb348-6258-412d-9ed5-d053f97c5b25" name="Changes" comment="" />
+      <created>1756368322270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756368322270</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
