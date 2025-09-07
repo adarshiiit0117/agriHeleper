@@ -41,4 +41,13 @@ public class BookingController {
     public ResponseEntity<List<Booking>> getLenderBookings(Authentication authentication) {
         return bookingService.getLenderBookings(authentication);
     }
+
+    // ✅ New endpoint: mark booking as completed
+    @PutMapping("/{bookingId}/complete")
+    public ResponseEntity<String> markAsCompleted(
+            @PathVariable Long bookingId,
+            Authentication authentication
+    ) {
+        return bookingService.markAsCompleted(bookingId, authentication);
+    }
 }
