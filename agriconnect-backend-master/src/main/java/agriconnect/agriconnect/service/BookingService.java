@@ -85,4 +85,31 @@ public class BookingService {
         if (userOpt.isEmpty()) return ResponseEntity.badRequest().build();
         return ResponseEntity.ok(bookingRepository.findByLender(userOpt.get()));
     }
+
+    // ✅ New method: Mark booking as completed
+    public ResponseEntity<String> markAsCompleted(Long bookingId, Authentication authentication) {
+        Optional<Booking> bookingOpt = bookingRepository.findById(bookingId);
+
+        if (bookingOpt.isEmpty()) {
+            return ResponseEntity.badRequest().body("Booking not found");
+        }
+
+        Booking booking = bookingOpt.get();
+
+        // Only lender can mark as completed
+        if (!booking.getLender().getEmail().equals(authentication.getName())) {
+            return ResponseEntity.status(403).body("You are not authorized to complete this booking");
+        }
+
+        if (!booking.getStatus().equals(BookingStatus.BOOKED)) {
+            return ResponseEntity.badRequest().body("Only booked services can be marked as completed");
+        }
+
+        booking.setStatus(BookingStatus.COMPLETED);
+        booking.getEquipment().markAsAvailable(); // ✅ Make equipment available again
+        equipmentRepository.save(booking.getEquipment());
+        bookingRepository.save(booking);
+
+        return ResponseEntity.ok("Booking marked as completed successfully");
+    }
 }
