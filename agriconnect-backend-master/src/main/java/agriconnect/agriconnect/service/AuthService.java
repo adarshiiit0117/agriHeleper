@@ -65,6 +65,10 @@ public class AuthService {
                 response.setFullName(user.getFullName());
                 response.setEmail(user.getEmail());
                 response.setPhoneNumber(user.getPhoneNumber());
+                response.setCountry(user.getCountry());
+                response.setPincode(user.getPincode());
+                response.setAddress(user.getAddress());
+                response.setState(user.getState());
                 return response;
             }
         }
@@ -113,4 +117,5 @@ public class AuthService {
         return ResponseEntity.ok("User profile updated successfully");
     }
 }
+
 
