@@ -53,7 +53,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:5173")); // React app
+        config.setAllowedOrigins(List.of("https://agri-connecti.vercel.app")); // React app
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS")); // Allow preflight
         config.setAllowedHeaders(List.of("*")); // Accept all headers
         config.setExposedHeaders(List.of("Authorization")); // Expose JWT to frontend
